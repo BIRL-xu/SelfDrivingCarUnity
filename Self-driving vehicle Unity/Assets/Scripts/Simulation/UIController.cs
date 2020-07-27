@@ -218,8 +218,8 @@ public class UIController : MonoBehaviour
                 //Round
                 int speedInt = Mathf.RoundToInt(speed);
 
-                //Display the speed
-                speedText.text = speedInt + " km/h";
+                //Display the speed  speedInt
+                speedText.text = 0 + " km/h";
             }
             
             yield return new WaitForSeconds(0.5f);
